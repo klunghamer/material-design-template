@@ -1,13 +1,15 @@
-/* Custom Stylesheet */
-/**
- *
- * Made By Joash Pereira
- * Thanks for MaterializeCSS.com
- */
+html {
+    font-family: Helvetica;
+  }
 
-.default_color{background-color: #2196F3 !important}
+.default_color{
+  background: #6BC6FF !important;
+  background: -webkit-linear-gradient(left, #6BC6FF, #348CED);
+  background: -o-linear-gradient(right, #6BC6FF, #348CED);
+  background: -moz-linear-gradient(right, #6BC6FF, #348CED);
+  background: linear-gradient(to right, #6BC6FF, #348CED) !important}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{color: #6BC6FF !important}
 
 .icon-block {
     padding: 0 15px;
@@ -20,11 +22,11 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #2196F3;
+    background: url("../img/Walloon-Lake.jpg") no-repeat fixed center;
 }
 
 #nav_f{
-    box-shadow: none !important; 
+    box-shadow: none !important;
     -webkit-box-shadow:none !important;
 }
 
@@ -48,20 +50,24 @@
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #6BC6FF;}
 
-.text_b{color: #2196F3;}
+.text_b{color: #6BC6FF;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-    color: #2196F3;
+    color: #6BC6FF;
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
 
-.card-content a:hover {color: #2196F3;}
+#captions {
+  text-decoration: none;
+}
+.card-content a {color: #6BC6FF;}
+
+.card-content a:hover {color: #6BC6FF;}
 
 #work, #team{background: rgb(247, 247, 247);}
 
@@ -112,7 +118,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #2196F3;
+    color: #6BC6FF;
 }
 
 .cd-headline.type b {
@@ -130,6 +136,10 @@ nav ul a {
 .cd-headline.type i.in {
     position: relative;
     visibility: visible;
+}
+
+#work-example {
+  width: 89vw;
 }
 
 @-webkit-keyframes cd-pulse {
