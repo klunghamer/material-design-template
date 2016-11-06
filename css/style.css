@@ -62,12 +62,10 @@ html {
     display: block;
 }
 
-#captions {
-  text-decoration: none;
-}
-.card-content a {color: #6BC6FF;}
 
-.card-content a:hover {color: #6BC6FF;}
+.card-content a {color: black;}
+
+.card-content a:hover {color: white;}
 
 #work, #team{background: rgb(247, 247, 247);}
 
@@ -140,6 +138,10 @@ nav ul a {
 
 #work-example {
   width: 89vw;
+}
+
+#test {
+  color: black;
 }
 
 @-webkit-keyframes cd-pulse {
