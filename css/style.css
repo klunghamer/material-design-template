@@ -22,7 +22,7 @@ html {
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background: url("../img/Walloon-Lake.jpg") no-repeat fixed center;
+    background: url("../img/Walloon-Lake.jpg") no-repeat center center;
 }
 
 #nav_f{
